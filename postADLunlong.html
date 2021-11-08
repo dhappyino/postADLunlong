@@ -1,0 +1,3603 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <script src="setting.js"></script>
+    <script src="Cookie.js"></script>
+    <script src="HTTP2019.js"></script>
+    <script>
+        queryParam();
+        var FHIRPtionID = globalPatientID; //= localStorage.getItem("FHIRPtionID");
+        // alert(FHIRPtionID);
+
+        var myObj = {
+            "resourceType": "QuestionnaireResponse",
+            "status": "completed",
+            "identifier": [
+        {
+          "system": "slot",
+          "value": "slot1"
+        }],
+            "subject": {
+                "reference": "Patient/" + FHIRPtionID
+            },
+            "authored": "2020-02-17T12:20:17.1151Z",
+            "item": [{
+                    "linkId": "marriage",
+                    "text": "婚姻狀況",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "religion",
+                    "text": "宗教信仰",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "education",
+                    "text": "最高學歷",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "work",
+                    "text": "工作執業別",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "dep",
+                    "text": "工作科別",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "teach",
+                    "text": "臨床教師",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "money",
+                    "text": "經濟狀況",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "work3",
+                    "text": "工作必需輪三班",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "study_1",
+                    "text": "有在職進修中",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "1",
+                    "text": "編號1",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "2",
+                    "text": "編號2",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "3",
+                    "text": "編號3",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "4",
+                    "text": "編號4",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "5",
+                    "text": "編號5",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "6",
+                    "text": "編號6",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "7",
+                    "text": "編號7",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "8",
+                    "text": "編號8",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "9",
+                    "text": "編號9",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "10",
+                    "text": "編號10",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "11",
+                    "text": "編號11",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "12",
+                    "text": "編號12",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "13",
+                    "text": "編號13",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "14",
+                    "text": "編號14",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "15",
+                    "text": "編號15",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "16",
+                    "text": "編號16",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "17",
+                    "text": "編號17",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "18",
+                    "text": "編號18",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "19",
+                    "text": "編號19",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "20",
+                    "text": "編號20",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "21",
+                    "text": "編號21",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "22",
+                    "text": "編號22",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "23",
+                    "text": "編號23",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "24",
+                    "text": "編號24",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "25",
+                    "text": "編號25",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "26",
+                    "text": "編號26",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "27",
+                    "text": "編號27",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "28",
+                    "text": "編號28",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "29",
+                    "text": "編號29",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "30",
+                    "text": "編號30",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "31",
+                    "text": "編號31",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "32",
+                    "text": "編號32",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "33",
+                    "text": "編號33",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "34",
+                    "text": "編號34",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "35",
+                    "text": "編號35",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "36",
+                    "text": "編號36",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "37",
+                    "text": "編號37",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "38",
+                    "text": "編號38",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "39",
+                    "text": "編號39",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "40",
+                    "text": "編號40",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "41",
+                    "text": "編號41",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "42",
+                    "text": "編號42",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "43",
+                    "text": "編號43",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "44",
+                    "text": "編號44",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "45",
+                    "text": "編號45",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "46",
+                    "text": "編號46",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "47",
+                    "text": "編號47",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "48",
+                    "text": "編號48",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "49",
+                    "text": "編號49",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "50",
+                    "text": "編號50",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "51",
+                    "text": "編號51",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "52",
+                    "text": "編號52",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "53",
+                    "text": "編號53",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "54",
+                    "text": "編號54",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "55",
+                    "text": "編號55",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "56",
+                    "text": "編號56",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "57",
+                    "text": "編號57",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "58",
+                    "text": "我常需搬運病人或重物",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "59",
+                    "text": "若家中有急事，我無法請假",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "60",
+                    "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "61",
+                    "text": "on call制度使我無法安排生活",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "62",
+                    "text": "若須支援其他專科病房，我會很有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "63",
+                    "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "64",
+                    "text": "上班時我沒有完整的30分鐘用餐",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "65",
+                    "text": "我若身體嚴重不適，無法請假",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "66",
+                    "text": "我會因病人病情無法改善感到難過",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "67",
+                    "text": "工作上的負荷，讓我難以完成在家想做的事",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "68",
+                    "text": "太多非護理的工作剝奪我照護病人的時間",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "69",
+                    "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "70",
+                    "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "71",
+                    "text": "上班時，我沒時間喝水、上廁所",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "72",
+                    "text": "我會擔心同事工作能力不足而影響到病人安全",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "73",
+                    "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "74",
+                    "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "75",
+                    "text": "醫院常以低於時薪的價格換取我的工時",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "76",
+                    "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "77",
+                    "text": "工作上的負荷，會影響我的家庭生活",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                },
+                {
+                    "linkId": "78",
+                    "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "79",
+                    "text": "入睡時間",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "80",
+                    "text": "睡眠中斷",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "81",
+                    "text": "過早清醒",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "82",
+                    "text": "總睡眠時間",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "83",
+                    "text": "睡眠絣直",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "84",
+                    "text": "白天的美好感",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "85",
+                    "text": "白天身心功能",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "86",
+                    "text": "白天嗜睡程度",
+                    "answer": [{
+                        "valueInteger": 0
+                    }]
+                }, {
+                    "linkId": "96",
+                    "text": "生日",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "97",
+                    "text": "div_gender",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "total_year",
+                    "text": "工作年資",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "start_year",
+                    "text": "開始年",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "start_month",
+                    "text": "開始月",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "101",
+                    "text": "教學年",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "102",
+                    "text": "大夜天",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }, {
+                    "linkId": "103",
+                    "text": "小夜天",
+                    "answer": [{
+                        "valueString": ""
+                    }]
+                }
+            ]
+        };
+
+        // myObj.item[0].answer[0].valueString
+        function postData() {
+
+            //第三種寫法 getElementsByTagName
+            var count = 0; //計數器
+            var txt_count = 95;
+            var Str = "";
+            var txt_Str = "";
+            var Total_Obj = document.getElementsByTagName("input");
+            //alert(Total_Obj.length);
+            for (var k = 0; k < Total_Obj.length; k++) {
+                if (Total_Obj[k].type == "radio") {
+                    if (Total_Obj[k].checked) {
+                        Str = Total_Obj[k].value;
+                        if (Str != "") {
+                            //answer[count] = Str;//text;
+                            myObj.item[count].answer[0].valueInteger = Str;
+                            count++;
+                            //alert(Str);
+                        }
+                    }
+                }
+                if (Total_Obj[k].type == "text") { //counter 
+
+                    // txt_Str = parseInt(Total_Obj[k].value);
+                    txt_Str = Total_Obj[k].value;
+                    if (txt_Str != "") {
+                        //answer[count] = Str;//text;
+                        myObj.item[txt_count].answer[0].valueString = txt_Str;
+                        txt_count++;
+                        //alert(Str);
+                    }
+
+                }
+            }
+            var Isblank="";
+            for(var i=0;i<myObj.item.length;i++)
+            {
+                if(myObj.item[i].hasOwnProperty("answer"))
+                if(myObj.item[i].answer[0].hasOwnProperty("valueInteger")){
+                    if(myObj.item[i].answer[0].valueInteger==-1)
+                    
+                    if(Isblank=="")
+                        Isblank="div_"+myObj.item[i].linkId;
+                    
+                    //讓所有未選擇的radio 以紅框註記 。 因為FHIR模版LinkID未與div對應完成，所以一開始執行會有找不到物件的錯誤
+                    document.getElementById("div_"+myObj.item[i].linkId).style.border="2px red solid";
+       
+                    //break;
+                }
+            }
+            
+            if(Isblank=="")
+            {
+            const DTevent = new Date();
+            myObj.authored = DTevent.toISOString(); //取得當前時間
+            var jsonStr = JSON.stringify(myObj);
+            //alert(jsonStr);
+
+            var apiURL;
+            apiURL = FHIRrootURL + "/QuestionnaireResponse";
+            HTTPPostData(apiURL, jsonStr);
+            // window.location = "index.html";
+            }
+            else
+            { 
+            window.location.hash = "#"+Isblank;
+       // document.getElementById(Isblank).style.border="2px red solid";
+            }
+        }
+
+        function getData() {
+            //取得填答
+            HTTPGetData(FHIRrootURL + "/QuestionnaireResponse/1609353");
+            var data = JSON.parse(ret);
+            var tb1 = document.getElementById("tb1");
+            alert(data.item[0].answer[0].valueInteger);
+            if (data.item[0].answer[0].valueInteger == 1) {
+                document.getElementById("rd_life_01_01").checked = true;
+            }
+            if (data.item[0].answer[0].valueInteger == 2) {
+                document.getElementById("rd_life_01_02").checked = true;
+            }
+            if (data.item[0].answer[0].valueInteger == 3) {
+                document.getElementById("rd_life_01_03").checked = true;
+            }
+
+            //將答案依序讀取出來
+            /*for (i = 0; i < data.item.length; i++) {
+               var obj = data.item[i];
+                var ans = obj.answer[0].valueInteger;
+                //alert(ans);       
+                //把資料寫入radiobutton 
+                var item = tb1.rows[i].getElementsByTagName("input");
+                //alert(item.length);
+                    for (k = 0; k < item.length; k++) {
+                        if (item[k].value == ans) {
+                            item[k].checked = true;
+                        }                       
+                    }
+                   
+            }*/
+
+            alert(data);
+        }
+
+        function clearData() {
+            var Total_Obj = document.getElementsByTagName("input");
+            // var question=document.getElementsByName("qtext");
+            for (var k = 0; k < Total_Obj.length; k++) {
+                if (Total_Obj[k].type == "radio") {
+                    if (Total_Obj[k].checked) {
+                        Total_Obj[k].checked = false;
+                    }
+                }
+            }
+        }
+
+        function getSelectValue(str_target) {
+            if (str_target == 'selGender') {
+                if (selGender.options[selGender.selectedIndex].text != '請選擇您的性別')
+                    document.getElementById('txt_gender').value = selGender.options[selGender.selectedIndex].text;
+                else
+                    document.getElementById('txt_gender').value = '';
+            }
+        }
+    </script>
+
+</head>
+
+<body style="height: 780px">
+    1. 生日 (E.g. 1900-01-01)：
+    <input type="text" id="DoB" value=" "/>
+    <br>
+
+    <div id="div_gender">
+    2. 性別：
+    <input type="text" id="txt_gender" readonly="readonly" value=" "/>
+    <select type="text" id="selGender" onchange="getSelectValue('selGender')">
+        <option>請選擇您的性別</option>
+        <option>male</option>
+        <option>female</option>
+        <option>other</option>
+        <option>unknown</option>
+    </select></div>
+    <br>
+     <div id="div_marriage">
+    3. 婚姻狀況:
+   
+    <input type="radio" name="marriage" id="marriage_0" value="-1" hidden checked>
+    <input type="radio" name="marriage" id="marriage_1" value="1">1.單身
+    <input type="radio" name="marriage" id="marriage_2" value="2">2.已婚, 有小孩
+    <input type="radio" name="marriage" id="marriage_3" value="3">3.已婚,無小孩
+    <input type="radio" name="marriage" id="marriage_4" value="4">4.離婚
+    <input type="radio" name="marriage" id="marriage_5" value="5">5.喪偶
+    <input type="radio" name="marriage" id="marriage_6" value="6">6.同居 <br />
+</div>
+<div id="div_religion">
+    4.宗教信仰：
+    <input type="radio" name="religion" id="religion_0" value="-1" hidden checked>
+    <input type="radio" name="religion" id="religion_1" value="1">1.無
+    <input type="radio" name="religion" id="religion_2" value="2">2.道教
+    <input type="radio" name="religion" id="religion_3" value="3">3.佛教
+    <input type="radio" name="religion" id="religion_4" value="4">4.基督教
+    <input type="radio" name="religion" id="religion_5" value="5">5.天主教
+    <input type="radio" name="religion" id="religion_6" value="6">6.回教
+    <input type="radio" name="religion" id="religion_7" value="7">7.其他 <br />
+    </div>
+    <div id="div_education">
+    5.最高學歷：
+    <input type="radio" name="education" id="education_0" value="-1" hidden checked>
+    <input type="radio" name="education" id="education_1" value="1">1.專科
+    <input type="radio" name="education" id="education_2" value="2">2.二技
+    <input type="radio" name="education" id="education_3" value="3">3.四技
+    <input type="radio" name="education" id="education_4" value="4">4.大學
+    <input type="radio" name="education" id="education_5" value="5">5.碩士
+    <input type="radio" name="education" id="education_6" value="6">6.博士 <br />
+</div>
+
+<div id="div_work">
+    6. 工作執業別:
+    <input type="radio" name="work" id="work_0" value="-1" hidden checked>
+    <input type="radio" name="work" id="work_1" value="1">1.護理師
+    <input type="radio" name="work" id="work_2" value="2">2.藥劑師
+    <input type="radio" name="work" id="work_3" value="3">3.營養師
+    <input type="radio" name="work" id="work_4" value="4">4.醫檢師
+    <input type="radio" name="work" id="work_5" value="5">5.職能治療師
+    <input type="radio" name="work" id="work_6" value="6">6.物理治療師
+    <input type="radio" name="work" id="work_7" value="7">7.呼吸治療師
+    <input type="radio" name="work" id="work_8" value="8">8.血液透析師
+    <input type="radio" name="work" id="work_9" value="9">9.心理師
+    <input type="radio" name="work" id="work_10" value="10">10.醫師
+    <input type="radio" name="work" id="work_11" value="11">11.其他 <br />
+</div>
+    <p>執業別有分科者請續答第7題，無分科者請續答第8題</p>
+
+    <div id="div_dep">
+    7.工作科別：
+
+    <input type="radio" name="dep" id="dep_0" value="-1" hidden checked>
+    <input type="radio" name="dep" id="dep_1" value="1">1.外科
+    <input type="radio" name="dep" id="dep_2" value="2">2.內科
+    <input type="radio" name="dep" id="dep_3" value="3">3.兒科
+    <input type="radio" name="dep" id="dep_4" value="4">4.婦產科
+    <input type="radio" name="dep" id="dep_5" value="5">5.泌尿科
+    <input type="radio" name="dep" id="dep_6" value="6">6.骨科
+    <input type="radio" name="dep" id="dep_7" value="7">7.耳鼻喉科
+    <input type="radio" name="dep" id="dep_8" value="8">8.加護病房
+    <input type="radio" name="dep" id="dep_9" value="9">9.急診
+    <input type="radio" name="dep" id="dep_10" value="10">10.門診
+    <input type="radio" name="dep" id="dep_11" value="11">11.安寧
+    <input type="radio" name="dep" id="dep_12" value="12">12.其他 <br />
+    </div>
+   
+    8. 工作年資：
+    <input type="text" id="total_year" value=" "/>年，
+    民國<input type="text" id="start_year" value=" "/>年
+    <input type="text" id="start_month" value=" "/>月至慈濟醫院工作 <br />
+    
+    <div id="div_teach">
+    9. 臨床教師:
+    <input type="radio" name="teach" id="teach_0" value="-1" hidden checked>
+    <input type="radio" name="teach" id="teach_1" value="1">1. 否
+    <input type="radio" name="teach" id="teach_2" value="2">2.是，臨床教師年資：
+    <input type="text" id="teach_year" value=" "/>年<br />
+    </div>
+    <div id="div_money">
+    10經濟狀況：
+    <input type="radio" name="money" id="money_0" value="-1" hidden checked>
+    <input type="radio" name="money" id="money_1" value="1">1.入不敷出
+    <input type="radio" name="money" id="money_2" value="2">2.收支平衡
+    <input type="radio" name="money" id="money_3" value="3">3.尚有結餘
+    <input type="radio" name="money" id="money_4" value="4">4. 其他<br />
+</div>
+<div id="div_work3">
+    11.工作必需輪三班：
+    <input type="radio" name="work3" id="work3_0" value="-1" hidden checked>
+    <input type="radio" name="work3" id="work3_1" value="1">1.是，最近一週，大夜班天數
+    <input type="text" id="work3_big_day" value=" "/>天，小夜班
+    <input type="text" id="work3_small_day" value=" "/>天
+    <input type="radio" name="work3" id="work3_2" value="2">2.否<br />
+</div>
+<div id="div_study_1">
+    12.有在職進修中：
+    1.是，
+
+    <input type="radio" name="study_1" id="study_1_0" value="-1" hidden checked>
+    <input type="radio" name="study_1" id="study_1_1" value="1">二技
+    <input type="radio" name="study_1" id="study_1_2" value="2">碩士
+    <input type="radio" name="study_1" id="study_1_3" value="3">博士
+    <input type="radio" name="study_1" id="study_2" value="4">2.否<br />
+</div>
+    <h1 align="center">研究問卷</h1>
+    <p>親愛的護理同仁，您好
+        為了解您目前所面臨的處境，作為未來我們辦理正念相關課程之參考。期望您能夠提供您寶貴的經驗，幫助工作之調適。
+        本計畫分五個部份，第一部分是了解你個人目前處境的狀況，第二部份是問卷調查及個人基本資料，問卷採不記名的方式，您所提供的資料僅供學術研究使用，不會對外公開，且對您個人的權益不會有任何影響，請您安心填答。
+        研究主持人 花蓮慈濟醫院護理部 王淑貞敬上
+    </p>
+
+    <!-- <input id="btnClear" onclick="clearData()" type="button" value="clearData" /> -->
+    <!-- <input id="btnGetdata" onclick="getData()" type="button" value="getData" /> -->
+
+    <h2>第一部份問卷</h2>
+    <p>一，正念量表</p>
+    <p>請仔細閱讀後，依照您自己平日的實際情況圈選符合的數字</p>
+    <h4>一，正念五構面量表</h4>
+    <p>以下題目請根據以下的等級評分，將最符合您真實想法的程度，在空格內打勾。</p>
+    <table width="100%" style="table-layout: fixed" border="1">
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>1. 我在洗澡或淋浴時，我清楚知道水流過身體的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_01" id="rd_five_01_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_01" id="rd_five_01_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_01" id="rd_five_01_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_01" id="rd_five_01_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_01" id="rd_five_01_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_01" id="rd_five_01_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>2. 我善於用文字來描述我的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_02" id="rd_five_02_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_02" id="rd_five_02_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_02" id="rd_five_02_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_02" id="rd_five_02_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_02" id="rd_five_02_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_02" id="rd_five_02_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>3. 我無法專注於當下所做的事情，因為我常在做白日夢、擔憂或分心。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_03" id="rd_five_03_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_03" id="rd_five_03_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_03" id="rd_five_03_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_03" id="rd_five_03_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_03" id="rd_five_03_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_03" id="rd_five_03_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>4. 我的一些想法是不正常的或不好的，我認為自己不應該那樣想。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_04" id="rd_five_04_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_04" id="rd_five_04_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_04" id="rd_five_04_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_04" id="rd_five_04_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_04" id="rd_five_04_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_04" id="rd_five_04_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>5. 當我有痛苦的想法或想像時，我會”退一步”想這些想法，腦海裏不會被這個想法佔據。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_05" id="rd_five_05_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_05" id="rd_five_05_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_05" id="rd_five_05_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_05" id="rd_five_05_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_05" id="rd_five_05_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_05" id="rd_five_05_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>6.我注意食物或飲料如何影響我的想法、身體感覺、情緒。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_06" id="rd_five_06_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_06" id="rd_five_06_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_06" id="rd_five_06_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_06" id="rd_five_06_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_06" id="rd_five_06_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_06" id="rd_five_06_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>7. 我很難想到正確的文字來表達我對事物的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_07" id="rd_five_07_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_07" id="rd_five_07_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_07" id="rd_five_07_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_07" id="rd_five_07_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_07" id="rd_five_07_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_07" id="rd_five_07_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>8. 我只是例行性的執行工作，對我正在做的事並什麼覺察。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_08" id="rd_five_08_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_08" id="rd_five_08_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_08" id="rd_five_08_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_08" id="rd_five_08_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_08" id="rd_five_08_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_08" id="rd_five_08_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>9. 我的一些情緒是不正常的或不好的，我認為自己不應該有這樣的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_09" id="rd_five_09_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_09" id="rd_five_09_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_09" id="rd_five_09_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_09" id="rd_five_09_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_09" id="rd_five_09_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_09" id="rd_five_09_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>10. 當我有痛苦的想法或想像時，我只是注意到它們，而沒有對這個想法或想像做出反應。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_10" id="rd_five_10_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_10" id="rd_five_10_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_10" id="rd_five_10_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_10" id="rd_five_10_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_10" id="rd_five_10_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_10" id="rd_five_10_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>11. 我會注意到自己的一些感官知覺，例如：微風吹過我的頭髮、陽光照在我臉上的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_11" id="rd_five_11_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_11" id="rd_five_11_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_11" id="rd_five_11_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_11" id="rd_five_11_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_11" id="rd_five_11_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_11" id="rd_five_11_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>12. 即使我感到非常沮喪，我也可以找到方法將其表達出來。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_12" id="rd_five_12_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_12" id="rd_five_12_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_12" id="rd_five_12_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_12" id="rd_five_12_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_12" id="rd_five_12_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_12" id="rd_five_12_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>13. 我發現自己做事不專心。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_13" id="rd_five_13_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_13" id="rd_five_13_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_13" id="rd_five_13_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_13" id="rd_five_13_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_13" id="rd_five_13_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_13" id="rd_five_13_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>14. 當有某些感覺時，我會告誡自己不應該有這樣的感覺。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_14" id="rd_five_14_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_14" id="rd_five_14_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_14" id="rd_five_14_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_14" id="rd_five_14_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_14" id="rd_five_14_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_14" id="rd_five_14_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>15. 當我有痛苦的想法或想像時，我只是注意到它們，而不會再繼續想它們。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_five_15" id="rd_five_15_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_five_15" id="rd_five_15_01" value="1" />(1)一點也不符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_15" id="rd_five_15_02" value="2" />(2) 較少符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_15" id="rd_five_15_03" value="3" />(3) 有些同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_15" id="rd_five_15_04" value="4" />(4) 非常符合
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_five_15" id="rd_five_15_05" value="5" />(5) 完全符合
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+    <h4>二，專業生活品質量表</h4>
+    <p>以下題目請根據以下的等級評分，將最符合您的實際情況，圈選符合的數字。</p>
+    <p>當您﹝幫助﹞別人時，會直接接觸到他人的生活。您可能因此曾經經驗過正面及負面的影響。下列問題是有關您身為﹝助人者﹞時所經歷過的正面及負面經驗。請依據您自己及目前的工作狀況，來回答下列的問題。請誠實地填選出最符合您在過去一週中所經歷過的情況。
+    </p>
+    <table width="100%" style="table-layout: fixed" border="1">
+        <tr>
+            <td>編號</td>
+            <td align="center">題目</td>
+            <td>從未有過(1)</td>
+            <td>很少(2)</td>
+            <td>有些<br>時候(3)</td>
+            <td>經常<br>如此(4)</td>
+            <td>總是<br>如此(5)</td>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>我是快樂的。</td>
+            <td width=30>
+
+                <input type="radio" name="num1" id="rd_life_01_00" value="-1" hidden checked>
+                <input type="radio" name="num1" id="rd_life_01_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num1" id="rd_life_01_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num1" id="rd_life_01_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num1" id="rd_life_01_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num1" id="rd_life_01_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>
+
+                2
+            </td>
+            <td>我總是想起一個以上我所幫助過的人。</td>
+            <td>
+
+                <input type="radio" name="num2" id="rd_life_02_00" value="-1" hidden checked>
+                <input type="radio" name="num2" id="rd_life_02_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num2" id="rd_life_02_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num2" id="rd_life_02_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num2" id="rd_life_02_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num2" id="rd_life_02_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>幫助人讓我得到滿足感。</td>
+            <td>
+
+                <input type="radio" name="num3" id="rd_life_03_00" value="-1" hidden checked>
+                <input type="radio" name="num3" id="rd_life_03_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num3" id="rd_life_03_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num3" id="rd_life_03_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num3" id="rd_life_03_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num3" id="rd_life_03_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>4</td>
+            <td>我覺得和其他人有所連結。</td>
+            <td>
+
+                <input type="radio" name="num4" id="rd_life_04_00" value="-1" hidden checked>
+                <input type="radio" name="num4" id="rd_life_04_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num4" id="rd_life_04_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num4" id="rd_life_04_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num4" id="rd_life_04_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num4" id="rd_life_04_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>突如其來的聲響會讓我感到驚嚇。</td>
+            <td>
+
+                <input type="radio" name="num5" id="rd_life_05_00" value="-1" hidden checked>
+                <input type="radio" name="num5" id="rd_life_05_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num5" id="rd_life_05_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num5" id="rd_life_05_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num5" id="rd_life_05_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num5" id="rd_life_05_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>6</td>
+            <td>當去幫助人後，讓我感到神采奕奕。</td>
+            <td>
+
+                <input type="radio" name="num6" id="rd_life_06_00" value="-1" hidden checked>
+                <input type="radio" name="num6" id="rd_life_06_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num6" id="rd_life_06_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num6" id="rd_life_06_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num6" id="rd_life_06_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num6" id="rd_life_06_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>我發現要將我的個人生活與助人工作分開來是困難的。</td>
+            <td>
+
+                <input type="radio" name="num7" id="rd_life_07_00" value="-1" hidden checked>
+                <input type="radio" name="num7" id="rd_life_07_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num7" id="rd_life_07_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num7" id="rd_life_07_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num7" id="rd_life_07_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num7" id="rd_life_07_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>8</td>
+            <td>因為在幫助有生理/心理創傷經驗的人人時會睡的不好，所以我的工作效率會較差。</td>
+            <td>
+
+                <input type="radio" name="num8" id="rd_life_08_00" value="-1" hidden checked>
+                <input type="radio" name="num8" id="rd_life_08_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num8" id="rd_life_08_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num8" id="rd_life_08_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num8" id="rd_life_08_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num8" id="rd_life_08_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>我想我已經被這些我曾幫助過，在生理/心裡有創傷者影響。</td>
+            <td>
+
+                <input type="radio" name="num9" id="rd_life_09_01" value="-1" hidden checked>
+                <input type="radio" name="num9" id="rd_life_09_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num9" id="rd_life_09_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num9" id="rd_life_09_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num9" id="rd_life_09_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num9" id="rd_life_09_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>10</td>
+            <td>從事助人的工作讓我感到陷入困境。</td>
+            <td>
+
+                <input type="radio" name="num10" id="rd_life_10_01" value="-1" hidden checked>
+                <input type="radio" name="num10" id="rd_life_10_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num10" id="rd_life_10_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num10" id="rd_life_10_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num10" id="rd_life_10_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num10" id="rd_life_10_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>因為我的助人工作，讓我對很多事情感到緊張。</td>
+            <td>
+
+                <input type="radio" name="num11" id="rd_life_11_01" value="-1" hidden checked>
+                <input type="radio" name="num11" id="rd_life_11_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num11" id="rd_life_11_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num11" id="rd_life_11_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num11" id="rd_life_11_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num11" id="rd_life_11_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>12</td>
+            <td>我喜歡從事助人的工作。</td>
+            <td>
+
+                <input type="radio" name="num12" id="rd_life_12_01" value="-1" hidden checked>
+                <input type="radio" name="num12" id="rd_life_12_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num12" id="rd_life_12_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num12" id="rd_life_12_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num12" id="rd_life_12_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num12" id="rd_life_12_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>因為幫助那些有生理/心理創傷經驗者，而讓我感到沮喪。</td>
+            <td>
+
+                <input type="radio" name="num13" id="rd_life_13_00" value="-1" hidden checked>
+                <input type="radio" name="num13" id="rd_life_13_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num13" id="rd_life_13_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num13" id="rd_life_13_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num13" id="rd_life_13_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num13" id="rd_life_13_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>14</td>
+            <td>我覺得我彷彿經歷了那些我曾經幫助過有生理/心理闖傷者的創傷經驗。</td>
+            <td>
+
+                <input type="radio" name="num14" id="rd_life_14_00" value="-1" hidden checked>
+                <input type="radio" name="num14" id="rd_life_14_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num14" id="rd_life_14_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num14" id="rd_life_14_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num14" id="rd_life_14_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num14" id="rd_life_14_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>我有信念/信仰支持著我。</td>
+            <td>
+
+                <input type="radio" name="num15" id="rd_life_15_01" value="-1" hidden checked>
+                <input type="radio" name="num15" id="rd_life_15_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num15" id="rd_life_15_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num15" id="rd_life_15_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num15" id="rd_life_15_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num15" id="rd_life_15_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>16</td>
+            <td>我對於自己對助人工作的方法與計畫能得心應手，感到滿意。</td>
+            <td>
+
+                <input type="radio" name="num16" id="rd_life_16_00" value="-1" hidden checked>
+                <input type="radio" name="num16" id="rd_life_16_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num16" id="rd_life_16_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num16" id="rd_life_16_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num16" id="rd_life_16_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num16" id="rd_life_16_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>我已經成為自己想要成為的助人者角色。</td>
+            <td>
+
+                <input type="radio" name="num17" id="rd_life_17_01" value="-1" hidden checked>
+                <input type="radio" name="num17" id="rd_life_17_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num17" id="rd_life_17_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num17" id="rd_life_17_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num17" id="rd_life_17_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num17" id="rd_life_17_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>18</td>
+            <td>我的工作使我感到滿意。</td>
+            <td>
+
+                <input type="radio" name="num18" id="rd_life_18_01" value="-1" hidden checked>
+                <input type="radio" name="num18" id="rd_life_18_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num18" id="rd_life_18_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num18" id="rd_life_18_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num18" id="rd_life_18_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num18" id="rd_life_18_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>我覺得精疲力盡，因為我的工作是一個助人者的角色。</td>
+            <td>
+
+                <input type="radio" name="num19" id="rd_life_19_01" value="-1" hidden checked>
+                <input type="radio" name="num19" id="rd_life_19_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num19" id="rd_life_19_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num19" id="rd_life_19_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num19" id="rd_life_19_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num19" id="rd_life_19_05" value="5" />
+                5
+            </td>
+        <tr>
+            <td>20</td>
+            <td>對於那些受我幫助和我能夠幫助的人，讓我感到開心。</td>
+            <td>
+
+                <input type="radio" name="num20" id="rd_life_20_00" value="-1" hidden checked>
+                <input type="radio" name="num20" id="rd_life_20_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num20" id="rd_life_20_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num20" id="rd_life_20_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num20" id="rd_life_20_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num20" id="rd_life_20_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>我覺得很受不了，因為我的工作負擔似乎沒有止盡。</td>
+            <td>
+
+                <input type="radio" name="num21" id="rd_life_21_00" value="-1" hidden checked>
+                <input type="radio" name="num21" id="rd_life_21_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num21" id="rd_life_21_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num21" id="rd_life_21_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num21" id="rd_life_21_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num21" id="rd_life_21_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>22</td>
+            <td>我相信透過我所做的，可以讓事情變得不同。</td>
+            <td>
+
+                <input type="radio" name="num22" id="rd_life_22_00" value="-1" hidden checked>
+                <input type="radio" name="num22" id="rd_life_22_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num22" id="rd_life_22_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num22" id="rd_life_22_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num22" id="rd_life_22_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num22" id="rd_life_22_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>我避免某些活動或情況，因為它們讓我想起了我幫助過的人的可怕經歷。</td>
+            <td>
+
+                <input type="radio" name="num23" id="rd_life_23_00" value="-1" hidden checked>
+                <input type="radio" name="num23" id="rd_life_23_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num23" id="rd_life_23_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num23" id="rd_life_23_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num23" id="rd_life_23_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num23" id="rd_life_23_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>24</td>
+            <td>我很自豪我能做些什麼來助人。</td>
+            <td>
+
+                <input type="radio" name="num24" id="rd_life_24_00" value="-1" hidden checked>
+                <input type="radio" name="num24" id="rd_life_24_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num24" id="rd_life_24_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num24" id="rd_life_24_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num24" id="rd_life_24_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num24" id="rd_life_24_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>由於我助人的結果，我有被侵擾和令人恐懼的想法。</td>
+            <td>
+
+                <input type="radio" name="num25" id="rd_life_25_00" value="-1" hidden checked>
+                <input type="radio" name="num25" id="rd_life_25_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num25" id="rd_life_25_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num25" id="rd_life_25_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num25" id="rd_life_25_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num25" id="rd_life_25_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>26</td>
+            <td>我覺得被制度限制住，而停滯不前。</td>
+            <td>
+
+                <input type="radio" name="num26" id="rd_life_26_00" value="-1" hidden checked>
+                <input type="radio" name="num26" id="rd_life_26_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num26" id="rd_life_26_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num26" id="rd_life_26_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num26" id="rd_life_26_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num26" id="rd_life_26_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>我認為我是一個"成功的助人工作者"。</td>
+            <td>
+
+                <input type="radio" name="num27" id="rd_life_27_00" value="-1" hidden checked>
+                <input type="radio" name="num27" id="rd_life_27_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num27" id="rd_life_27_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num27" id="rd_life_27_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num27" id="rd_life_27_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num27" id="rd_life_27_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>28</td>
+            <td>我不記得我的工作當中哪些是跟創傷受害者有關的重要部分。</td>
+            <td>
+
+                <input type="radio" name="num28" id="rd_life_28_00" value="-1" hidden checked>
+                <input type="radio" name="num28" id="rd_life_28_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num28" id="rd_life_28_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num28" id="rd_life_28_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num28" id="rd_life_28_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num28" id="rd_life_28_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>我是一個非常有愛心的人。</td>
+            <td>
+
+                <input type="radio" name="num29" id="rd_life_29_00" value="-1" hidden checked>
+                <input type="radio" name="num29" id="rd_life_29_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num29" id="rd_life_29_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num29" id="rd_life_29_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num29" id="rd_life_29_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num29" id="rd_life_29_05" value="5" />
+                5
+            </td>
+        </tr>
+        <tr bgcolor="#FFFFCD">
+            <td>30</td>
+            <td>我很高興我選擇做這份工作。</td>
+            <td>
+
+                <input type="radio" name="num30" id="rd_life_30_00" value="-1" hidden checked>
+                <input type="radio" name="num30" id="rd_life_30_01" value="1" />
+                1
+            </td>
+            <td>
+                <input type="radio" name="num30" id="rd_life_30_02" value="2" />
+                2
+            </td>
+            <td>
+                <input type="radio" name="num30" id="rd_life_30_03" value="3" />
+                3
+            </td>
+            <td>
+                <input type="radio" name="num30" id="rd_life_30_04" value="4" />
+                4
+            </td>
+            <td>
+                <input type="radio" name="num30" id="rd_life_30_05" value="5" />
+                5
+            </td>
+        </tr>
+    </table>
+    <h4>三，自我慈悲指數測試</h4>
+    <p>你對自己有多寬容？請仔細閱讀問題，然後選出最符合您的情況的選項。</p>
+    <table width="100%" style="table-layout: fixed" border="1">
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>1. 每當把重要的事搞砸的時候，會沉溺在什麼事都做不好的沮喪感中。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_01" value="1" />完全不是(1)
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_02" value="2" />很少(2)
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_03" value="3" />偶爾(3)
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_04" value="4" />經常(4)
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_01" id="rd_mercy_01_05" value="5" />幾乎總是(5)
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>2.不喜歡自己個性上的某些特質，但會嘗試用理解跟耐性的態度對待。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_01" value="1" />完全不是(1)
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_02" value="2" />很少(2)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_03" value="3" />偶爾(3)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_04" value="4" />經常(4)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_02" id="rd_mercy_02_05" value="5" />幾乎總是(5)
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>3.令人難過的事情發生的時候，會試著以平常心應對。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_01" value="1" />完全不是(1)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_02" value="2" />很少(2)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_03" value="3" />偶爾(3)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_04" value="4" />經常(4)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_03" id="rd_mercy_03_05" value="5" />幾乎總是(5)
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>4.情緒低落的時候，容易覺得其他人好像比較快樂。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_01" value="1" />完全不是(1)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_02" value="2" />很少(2)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_03" value="3" />偶爾(3)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_04" value="4" />經常(4)
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_04" id="rd_mercy_04_05" value="5" />幾乎總是(5)
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>5.會試圖把失敗視為一種正常的情況(每個人都會遇到)。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_05" id="rd_mercy_05_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>6.熬過巨大難關時，會給予自己關懷跟包容。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_06" id="rd_mercy_06_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>7.遇到不開心的事情時，試著保持心平氣和。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_07" id="rd_mercy_07_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>8. 在重大事件上失敗的時候，會覺得陷在挫敗的漩窩裡，孤立無援。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_08" id="rd_mercy_08_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>9.低潮的時候，對犯過的錯會更執著且放不下。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_01" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_02" value="2" />(2)很少
+
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_03" value="3" />(3)偶爾
+
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_09" id="rd_mercy_09_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>10. 覺得自己有所不足時，會試圖提醒自己這種感覺是很多人都有過的。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_01" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_10" id="rd_mercy_10_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>11. 對自身的缺點感到失望，對不足之處會加以批判。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_11" id="rd_mercy_11_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>12.討厭自己個性的某些特質，會對此非常沒有耐性而且態度不甚寬容。</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_01" value="1" />(1)完全不是
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_02" value="2" />(2)很少
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_03" value="3" />(3)偶爾
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_04" value="4" />(4)經常
+
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_mercy_12" id="rd_mercy_12_05" value="5" />(5)幾乎總是
+
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h4>四，護理工作壓力源量表</h4>
+    <p>請根據您平常的工作經驗，圈選一個最能代表您同意程度的答案：</p>
+    <table width="100%" style="table-layout: fixed" border="1">
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>1. 我常需搬運病人或重物</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_01" id="rd_pressure_01_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_01" id="rd_pressure_01_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_01" id="rd_pressure_01_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_01" id="rd_pressure_01_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_01" id="rd_pressure_01_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>2. 若家中有急事，我無法請假</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_02" id="rd_pressure_02_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_02" id="rd_pressure_02_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_02" id="rd_pressure_02_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_02" id="rd_pressure_02_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_02" id="rd_pressure_02_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>3. 必須承受病人或家屬的負向情緒讓我很有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_03" id="rd_pressure_03_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_03" id="rd_pressure_03_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_03" id="rd_pressure_03_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_03" id="rd_pressure_03_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_03" id="rd_pressure_03_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>4. on call制度使我無法安排生活</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_04" id="rd_pressure_04_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_04" id="rd_pressure_04_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_04" id="rd_pressure_04_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_04" id="rd_pressure_04_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_04" id="rd_pressure_04_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>5. 若須支援其他專科病房，我會很有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_05" id="rd_pressure_05_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_05" id="rd_pressure_05_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_05" id="rd_pressure_05_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_05" id="rd_pressure_05_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_05" id="rd_pressure_05_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>6. 若未依規定升等(如N1、N2)，會影響我的收入或考績 </label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_06" id="rd_pressure_06_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_06" id="rd_pressure_06_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_06" id="rd_pressure_06_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_06" id="rd_pressure_06_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_06" id="rd_pressure_06_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>7. 上班時我沒有完整的30分鐘用餐</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_07" id="rd_pressure_07_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_07" id="rd_pressure_07_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_07" id="rd_pressure_07_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_07" id="rd_pressure_07_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_07" id="rd_pressure_07_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>8. 我若身體嚴重不適，無法請假</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_08" id="rd_pressure_08_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_08" id="rd_pressure_08_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_08" id="rd_pressure_08_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_08" id="rd_pressure_08_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_08" id="rd_pressure_08_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>9. 我會因病人病情無法改善感到難過</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_09" id="rd_pressure_09_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_09" id="rd_pressure_09_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_09" id="rd_pressure_09_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_09" id="rd_pressure_09_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_09" id="rd_pressure_09_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>10. 工作上的負荷，讓我難以完成在家想做的事</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_10" id="rd_pressure_10_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_10" id="rd_pressure_10_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_10" id="rd_pressure_10_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_10" id="rd_pressure_10_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_10" id="rd_pressure_10_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>11. 太多非護理的工作剝奪我照護病人的時間</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_11" id="rd_pressure_11_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_11" id="rd_pressure_11_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_11" id="rd_pressure_11_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_11" id="rd_pressure_11_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_11" id="rd_pressure_11_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>12. 我會因主要照顧者無法妥善照顧病人感到有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_12" id="rd_pressure_12_01" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_12" id="rd_pressure_12_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_12" id="rd_pressure_12_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_12" id="rd_pressure_12_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_12" id="rd_pressure_12_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>13. 我會因為醫師的情緒性言語，感到很有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_13" id="rd_pressure_13_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_13" id="rd_pressure_13_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_13" id="rd_pressure_13_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_13" id="rd_pressure_13_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_13" id="rd_pressure_13_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>14. 上班時，我沒時間喝水、上廁所</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_14" id="rd_pressure_14_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_14" id="rd_pressure_14_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_14" id="rd_pressure_14_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_14" id="rd_pressure_14_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_14" id="rd_pressure_14_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>15. 我會擔心同事工作能力不足而影響到病人安全</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_15" id="rd_pressure_15_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_15" id="rd_pressure_15_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_15" id="rd_pressure_15_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_15" id="rd_pressure_15_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_15" id="rd_pressure_15_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>16. 我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_16" id="rd_pressure_16_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_16" id="rd_pressure_16_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_16" id="rd_pressure_16_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_16" id="rd_pressure_16_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_16" id="rd_pressure_16_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>17. 上班時，我沒有足夠時間提供病人心理層次的護理</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_17" id="rd_pressure_17_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_17" id="rd_pressure_17_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_17" id="rd_pressure_17_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_17" id="rd_pressure_17_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_17" id="rd_pressure_17_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>18. 醫院常以低於時薪的價格換取我的工時</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_18" id="rd_pressure_18_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_18" id="rd_pressure_18_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_18" id="rd_pressure_18_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_18" id="rd_pressure_18_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_18" id="rd_pressure_18_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>19. 病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_19" id="rd_pressure_19_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_19" id="rd_pressure_19_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_19" id="rd_pressure_19_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_19" id="rd_pressure_19_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_19" id="rd_pressure_19_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>20. 工作上的負荷，會影響我的家庭生活</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_20" id="rd_pressure_20_00" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_20" id="rd_pressure_20_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_20" id="rd_pressure_20_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_20" id="rd_pressure_20_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_20" id="rd_pressure_20_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>21. 工作帶來的相關責任，使我必須改變家庭活動的安排 </label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_pressure_21" id="rd_pressure_21_01" value="-1" hidden checked>
+                            <input type="radio" name="rd_pressure_21" id="rd_pressure_21_01" value="1" />(1) 很不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_21" id="rd_pressure_21_02" value="2" />(2) 不同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_21" id="rd_pressure_21_03" value="3" />(3) 同意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_pressure_21" id="rd_pressure_21_04" value="4" />(4) 很同意
+                        </label>
+                    </div>
+
+                </div>
+            </td>
+        </tr>
+    </table>
+    <h4>五，睡眠困擾程度</h4>
+    <p>以下問題僅針對您過去一個月以來，你如果每星期至少有三天的睡眠困擾，便可以加以估算。請回答所有的問題，將最符合您的實際情況，圈選符合的數字。</p>
+
+    <table width="100%" style="table-layout: fixed" border="1">
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">1.入睡時間</label>
+                    <div class="radio">
+
+                        <input type="radio" name="rd_sleep_1" id="rd_sleep_1_0" value="-1" hidden checked>
+                        <input type="radio" name="rd_sleep_1" id="rd_sleep_1_1" value="0" />
+                        0沒問題
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_1" id="rd_sleep_1_2" value="1" /> 1 略為延遲
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_1" id="rd_sleep_1_3" value="2" />2 中度延遲
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_1" id="rd_sleep_1_4" value="3" />3 嚴重延遲
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">2.睡眠中斷</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_2" id="rd_sleep_2_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_2" id="rd_sleep_2_1" value="0" />
+                            0沒問題
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_2" id="rd_sleep_2_2" value="1" />1 問題不大
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_2" id="rd_sleep_2_3" value="2" />2 問題明顯
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_2" id="rd_sleep_2_4" value="3" />3 嚴種中斷
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">3.過早清醒</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_3" id="rd_sleep_3_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_3" id="rd_sleep_3_1" value="0" />
+                            0沒問題
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_3" id="rd_sleep_3_2" value="1" />1 有點早醒
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_3" id="rd_sleep_3_3" value="2" />2 明顯早醒
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_3" id="rd_sleep_3_4" value="3" />3 嚴重早醒
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">4.總睡眠時間</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_4" id="rd_sleep_4_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_4" id="rd_sleep_4_1" value="0" /> 0 已足夠
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_4" id="rd_sleep_4_2" value="1" />1 有點不足
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_4" id="rd_sleep_4_3" value="2" />2 中度不足
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_4" id="rd_sleep_4_4" value="3" />3 嚴重不足
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">5.整體睡眠品質</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_5" id="rd_sleep_5_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_5" id="rd_sleep_5_1" value="0" />
+                            0 很滿意
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_5" id="rd_sleep_5_2" value="1" />1 有點不佳
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_5" id="rd_sleep_5_3" value="2" />2 明顯欠佳
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_5" id="rd_sleep_5_4" value="3" />3 極不滿意
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">6.白天的美好感(心情、情緒)</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_6" id="rd_sleep_6_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_6" id="rd_sleep_6_1" value="0" />
+                            0還不錯
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_6" id="rd_sleep_6_2" value="1" />1 有點下降
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_6" id="rd_sleep_6_3" value="2" />2 中度影響
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_6" id="rd_sleep_6_4" value="3" />3 嚴重下降
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label name="qtext">7.白天身心功能(體力、注意力、記憶力)</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_7" id="rd_sleep_7_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_7" id="rd_sleep_7_1" value="0" />
+                            0還正常
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_7" id="rd_sleep_7_2" value="1" />1 有點下降
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_7" id="rd_sleep_7_3" value="2" />2 中度影響
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_7" id="rd_sleep_7_4" value="3" />3 嚴重下降
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="form-group">
+                    <label>8.白天嗜睡程度</label>
+                    <div class="radio">
+                        <label>
+
+                            <input type="radio" name="rd_sleep_8" id="rd_sleep_8_0" value="-1" hidden checked>
+                            <input type="radio" name="rd_sleep_8" id="rd_sleep_8_1" value="0" />
+                            0沒有嗜睡
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_8" id="rd_sleep_8_2" value="1" />1 輕度嗜睡
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_8" id="rd_sleep_8_3" value="2" />2 中度嗜睡
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="rd_sleep_8" id="rd_sleep_8_4" value="3" />3 嚴重嗜睡
+                        </label>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+    <br />
+    <input id="Button1" onclick="postData()" type="button" value="完成問卷" /> <a
+        href="https://59.126.239.51:53443/user4/mindCourse/loginPerson.html"> 回首頁</a> </br> </br>
+</body>
+
+</html>
