@@ -675,49 +675,49 @@
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_1",
+                "linkId": "rd_sleep_1",
                 "text": "入睡時間",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_2",
+                "linkId": "rd_sleep_2",
                 "text": "睡眠中斷",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_3",
+                "linkId": "rd_sleep_3",
                 "text": "過早清醒",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_4",
+                "linkId": "rd_sleep_4",
                 "text": "總睡眠時間",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_5",
+                "linkId": "rd_sleep_5",
                 "text": "睡眠絣直",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_6",
+                "linkId": "rd_sleep_6",
                 "text": "白天的美好感",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_7",
+                "linkId": "rd_sleep_7",
                 "text": "白天身心功能",
                 "answer": [{
                     "valueInteger": 0
                 }]
             }, {
-                "linkId": "div_rd_sleep_8",
+                "linkId": "rd_sleep_8",
                 "text": "白天嗜睡程度",
                 "answer": [{
                     "valueInteger": 0
@@ -730,7 +730,7 @@
                 }]
             }, {
                 "linkId": "97",
-                "text": "div_gender",
+                "text": "gender",
                 "answer": [{
                     "valueString": ""
                 }]
@@ -812,14 +812,15 @@
             for (var i = 0; i < myObj.item.length; i++) {
                 if (myObj.item[i].hasOwnProperty("answer"))
                     if (myObj.item[i].answer[0].hasOwnProperty("valueInteger")) {
-                        if (myObj.item[i].answer[0].valueInteger == -1)
+                        if (myObj.item[i].answer[0].valueInteger == -1) {
 
                             if (Isblank == "")
                                 Isblank = "div_" + myObj.item[i].linkId;
 
-                            //讓所有未選擇的radio 以紅框註記 。 因為FHIR模版LinkID未與div對應完成，所以一開始執行會有找不到物件的錯誤
-                        document.getElementById("div_" + myObj.item[i].linkId).style.border = "2px red solid";
 
+                            //讓所有未選擇的radio 以紅框註記 。 因為FHIR模版LinkID未與div對應完成，所以一開始執行會有找不到物件的錯誤
+                            document.getElementById("div_" + myObj.item[i].linkId).style.border = "2px red solid";
+                        }
                         //break;
                     }
             }
