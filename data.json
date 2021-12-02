@@ -1,0 +1,4444 @@
+{
+    "resourceType": "Bundle",
+    "id": "32166597-a8ef-4e8d-a163-1524ade8e252",
+    "meta": {
+        "lastUpdated": "2021-11-24T15:21:18.251+08:00"
+    },
+    "type": "searchset",
+    "total": 7,
+    "link": [{
+        "relation": "self",
+        "url": "https://59.126.239.51:53443/fhir/QuestionnaireResponse?_filter=subject%20ne%20356&authored=gt2021-11-01"
+    }],
+    "entry": [{
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/408",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            **
+            "id": "408",
+            "meta": {
+                "versionId": "1",
+                **
+                "lastUpdated": "2021-11-11T10:39:43.020+08:00",
+                "source": "#C8ETJrYx2QVLkAYk"
+            },
+            "identifier": {
+                "system": "slot",
+                **
+                "value": "slot1"
+            },
+            **
+            "status": "completed",
+            "subject": { **
+                "reference": "Patient/398"
+            },
+            **
+            "authored": "2021-11-11T02:39:42.646Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 12
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": " 46"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 24"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年",
+                "answer": [{
+                    "valueString": " 90"
+                }]
+            }, {
+                "linkId": "start_month",
+                "text": "開始月",
+                "answer": [{
+                    "valueString": " 6"
+                }]
+            }, {
+                "linkId": "101",
+                "text": "教學年"
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/411",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "411",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-13T20:54:23.694+08:00",
+                "source": "#ZuYvAOsBM1xDEdVw"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/409"
+            },
+            "authored": "2021-11-13T12:54:23.250Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 6
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 12
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": " 57"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 30"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年",
+                "answer": [{
+                    "valueString": " 85"
+                }]
+            }, {
+                "linkId": "start_month",
+                "text": "開始月",
+                "answer": [{
+                    "valueString": " 7"
+                }]
+            }, {
+                "linkId": "101",
+                "text": "教學年",
+                "answer": [{
+                    "valueString": " 10"
+                }]
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/416",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "416",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-15T08:32:07.836+08:00",
+                "source": "#dAAH1vbordHQmS3A"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/414"
+            },
+            "authored": "2021-11-15T00:32:07.582Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 6
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 12
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": " 57"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 30"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年",
+                "answer": [{
+                    "valueString": " 85"
+                }]
+            }, {
+                "linkId": "start_month",
+                "text": "開始月",
+                "answer": [{
+                    "valueString": "7 "
+                }]
+            }, {
+                "linkId": "101",
+                "text": "教學年",
+                "answer": [{
+                    "valueString": " 10"
+                }]
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/417",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "417",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-15T08:44:45.373+08:00",
+                "source": "#nqocZcOTEVRXdxrl"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/396"
+            },
+            "authored": "2021-11-15T00:44:45.301Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": " 25"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 2"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年",
+                "answer": [{
+                    "valueString": " 2019"
+                }]
+            }, {
+                "linkId": "start_month",
+                "text": "開始月",
+                "answer": [{
+                    "valueString": " 12"
+                }]
+            }, {
+                "linkId": "101",
+                "text": "教學年",
+                "answer": [{
+                    "valueString": " 1"
+                }]
+            }, {
+                "linkId": "102",
+                "text": "大夜天",
+                "answer": [{
+                    "valueString": " 3"
+                }]
+            }, {
+                "linkId": "103",
+                "text": "小夜天",
+                "answer": [{
+                    "valueString": " 5"
+                }]
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/420",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "420",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-15T09:13:33.316+08:00",
+                "source": "#TLUwDIyNsnmlWDxL"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/418"
+            },
+            "authored": "2021-11-15T01:13:33.141Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 11
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 12
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": " 24"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 2"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年"
+            }, {
+                "linkId": "start_month",
+                "text": "開始月"
+            }, {
+                "linkId": "101",
+                "text": "教學年"
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/425",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "425",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-15T10:02:21.824+08:00",
+                "source": "#NIdhvFeb3V5z9ZoS"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/421"
+            },
+            "authored": "2021-11-15T02:02:21.743Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 11
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": "24 "
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "female"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資"
+            }, {
+                "linkId": "start_year",
+                "text": "開始年"
+            }, {
+                "linkId": "start_month",
+                "text": "開始月"
+            }, {
+                "linkId": "101",
+                "text": "教學年"
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }, {
+        "fullUrl": "https://59.126.239.51:53443/fhir/QuestionnaireResponse/426",
+        "resource": {
+            "resourceType": "QuestionnaireResponse",
+            "id": "426",
+            "meta": {
+                "versionId": "1",
+                "lastUpdated": "2021-11-15T10:31:24.218+08:00",
+                "source": "#blLQ7XTX6AQ8NS26"
+            },
+            "identifier": {
+                "system": "slot",
+                "value": "slot1"
+            },
+            "status": "completed",
+            "subject": {
+                "reference": "Patient/423"
+            },
+            "authored": "2021-11-15T02:31:23.520Z",
+            "item": [{
+                "linkId": "marriage",
+                "text": "婚姻狀況",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "religion",
+                "text": "宗教信仰",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "education",
+                "text": "最高學歷",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "work",
+                "text": "工作執業別",
+                "answer": [{
+                    "valueInteger": 11
+                }]
+            }, {
+                "linkId": "dep",
+                "text": "工作科別",
+                "answer": [{
+                    "valueInteger": 11
+                }]
+            }, {
+                "linkId": "teach",
+                "text": "臨床教師",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "money",
+                "text": "經濟狀況",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "work3",
+                "text": "工作必需輪三班",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "study_1",
+                "text": "有在職進修中",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_01",
+                "text": "1-1",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_02",
+                "text": "1-2",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_03",
+                "text": "1-3",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_04",
+                "text": "1-4",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_05",
+                "text": "1-5",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_06",
+                "text": "1-6",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_07",
+                "text": "1-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_08",
+                "text": "1-8",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_five_09",
+                "text": "1-9",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_10",
+                "text": "1-10",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_11",
+                "text": "1-11",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_five_12",
+                "text": "1-12",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_five_13",
+                "text": "1-13",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_five_14",
+                "text": "1-14",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_five_15",
+                "text": "1-15",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_01",
+                "text": "2-1",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_02",
+                "text": "2-2",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_03",
+                "text": "2-3",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_04",
+                "text": "2-4",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_05",
+                "text": "2-5",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_06",
+                "text": "2-6",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_07",
+                "text": "2-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_08",
+                "text": "2-8",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_09",
+                "text": "2-9",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_10",
+                "text": "2-10",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_11",
+                "text": "2-11",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_12",
+                "text": "2-12",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_13",
+                "text": "2-13",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_14",
+                "text": "2-14",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_15",
+                "text": "2-15",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_16",
+                "text": "2-16",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_17",
+                "text": "2-17",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_18",
+                "text": "2-18",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_19",
+                "text": "2-19",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_20",
+                "text": "2-20",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_21",
+                "text": "2-21",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_life_22",
+                "text": "2-22",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_23",
+                "text": "2-23",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_24",
+                "text": "2-24",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_life_25",
+                "text": "2-25",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_26",
+                "text": "2-26",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_life_27",
+                "text": "2-27",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_28",
+                "text": "2-28",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_life_29",
+                "text": "2-29",
+                "answer": [{
+                    "valueInteger": 4
+                }]
+            }, {
+                "linkId": "rd_life_30",
+                "text": "2-30",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_01",
+                "text": "3-1",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_02",
+                "text": "3-2",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_03",
+                "text": "3-3",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_04",
+                "text": "3-4",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_05",
+                "text": "3-5",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_06",
+                "text": "3-6",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_07",
+                "text": "3-7",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_mercy_08",
+                "text": "3-8",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_09",
+                "text": "3-9",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_10",
+                "text": "3-10",
+                "answer": [{
+                    "valueInteger": 5
+                }]
+            }, {
+                "linkId": "rd_mercy_11",
+                "text": "3-11",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_mercy_12",
+                "text": "3-12",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_01",
+                "text": "我常需搬運病人或重物",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_02",
+                "text": "若家中有急事，我無法請假",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_03",
+                "text": "必須承受病人或家屬的負向情緒讓我很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_04",
+                "text": "on call制度使我無法安排生活",
+                "answer": [{
+                    "valueInteger": 3
+                }]
+            }, {
+                "linkId": "rd_pressure_05",
+                "text": "若須支援其他專科病房，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_06",
+                "text": "若未依規定升等(如N1、N2)，會影響我的收入或考績 ",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_07",
+                "text": "上班時我沒有完整的30分鐘用餐",
+                "answer": [{
+                    "valueInteger": 2
+                }]
+            }, {
+                "linkId": "rd_pressure_08",
+                "text": "我若身體嚴重不適，無法請假",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_09",
+                "text": "我會因病人病情無法改善感到難過",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_10",
+                "text": "工作上的負荷，讓我難以完成在家想做的事",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_11",
+                "text": "太多非護理的工作剝奪我照護病人的時間",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_12",
+                "text": "我會因主要照顧者無法妥善照顧病人感到有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_13",
+                "text": "我會因為醫師的情緒性言語，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_14",
+                "text": "上班時，我沒時間喝水、上廁所",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_15",
+                "text": "我會擔心同事工作能力不足而影響到病人安全",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_16",
+                "text": "我會因為工作時遭遇心理暴力(如威脅、恐嚇、歧視、霸凌、騷擾等)，感到很有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_17",
+                "text": "上班時，我沒有足夠時間提供病人心理層次的護理",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_18",
+                "text": "醫院常以低於時薪的價格換取我的工時",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_19",
+                "text": "病人可能有感染性疾病時(如SARS，AIDS等)，我會很有壓力",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_20",
+                "text": "工作上的負荷，會影響我的家庭生活",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_pressure_21",
+                "text": "工作帶來的相關責任，使我必須改變家庭活動的安排 ",
+                "answer": [{
+                    "valueInteger": 1
+                }]
+            }, {
+                "linkId": "rd_sleep_1",
+                "text": "入睡時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_2",
+                "text": "睡眠中斷",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_3",
+                "text": "過早清醒",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_4",
+                "text": "總睡眠時間",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_5",
+                "text": "睡眠絣直",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_6",
+                "text": "白天的美好感",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_7",
+                "text": "白天身心功能",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "rd_sleep_8",
+                "text": "白天嗜睡程度",
+                "answer": [{
+                    "valueInteger": 0
+                }]
+            }, {
+                "linkId": "96",
+                "text": "年齡",
+                "answer": [{
+                    "valueString": "30"
+                }]
+            }, {
+                "linkId": "97",
+                "text": "gender",
+                "answer": [{
+                    "valueString": "unknown"
+                }]
+            }, {
+                "linkId": "total_year",
+                "text": "工作年資",
+                "answer": [{
+                    "valueString": " 1"
+                }]
+            }, {
+                "linkId": "start_year",
+                "text": "開始年"
+            }, {
+                "linkId": "start_month",
+                "text": "開始月"
+            }, {
+                "linkId": "101",
+                "text": "教學年"
+            }, {
+                "linkId": "102",
+                "text": "大夜天"
+            }, {
+                "linkId": "103",
+                "text": "小夜天"
+            }]
+        },
+        "search": {
+            "mode": "match"
+        }
+    }]
+}
