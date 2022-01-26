@@ -8,7 +8,7 @@ from openpyxl.workbook import Workbook
 #102
 
 urllib3.disable_warnings()
-url = "https://59.126.239.51:53443/fhir/QuestionnaireResponse?authored=gt2021-11-01&_filter=subject%20ne%20356"
+url = "https://59.126.145.136:53443/fhir/QuestionnaireResponse?authored=gt2021-11-01&_filter=subject%20ne%20356"
 response = requests.get(url, verify=False)
 total = json.loads(response.text)['total']
 print(total)
@@ -18,6 +18,11 @@ for j in range(0,103):
     item=json.loads(response.text)['entry'][0]['resource']['item'][j]['text']
     header.append(item)
 df = pd.DataFrame(columns=header)
+
+url2="https://59.126.145.136:53443/fhir/Patient"
+response2 = requests.get(url2, verify=False)
+total2 = json.loads(response2.text)['total']
+print(total2)
 
 while(1):
     
@@ -52,7 +57,7 @@ while(1):
     
         items=resource['item']
 
-        for k in range(0,97):
+        for k in range(0,95):
             try:
                 varlue=items[k]['answer'][0]['valueInteger']
             except:
@@ -60,7 +65,7 @@ while(1):
         
             F_payload.append(varlue)
     
-        for k in range(97,103):
+        for k in range(95,103):
             try:
                 varlue=items[k]['answer'][0]['valueString']
             except:
@@ -79,7 +84,6 @@ while(1):
             break;
     except:
         break
-
-print(df)
 name="問卷"
-df.to_excel('output.xlsx',sheet_name = name)
+df.to_excel('out.xlsx',sheet_name = name)
+print(df)
