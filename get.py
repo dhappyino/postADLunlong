@@ -41,7 +41,7 @@ while(1):
 
     for i in range(0, temp2):
         resource2=json.loads(response2.text)['entry'][i]['resource']
-        id2 = resource2['id']
+        id2 = "Patient/"+resource2['id']
         try:
             name2 = resource2['name'][0]['text']
             where = resource2['name'][1]['text']
@@ -89,10 +89,10 @@ while(1):
 
     for i in range(0, temp):
         resource=json.loads(response.text)['entry'][i]['resource']
-        id = resource['id']
+        id = resource['subject']["reference"]
         name = ""
         where = ""
-        for j in range(0, temp2):
+        for j in range(0, total2):
             if(id == df2.at[j, "id"]):
                 name = df2.at[j, "name"]
                 where = df2.at[j, "pos"]
@@ -145,6 +145,6 @@ while(1):
             break;
     except:
         break
-name="問卷"
-#df.to_excel('out.xlsx',sheet_name = name)
+name="名單"
+#df2.to_excel('out2.xlsx',sheet_name = name)
 print(df)
